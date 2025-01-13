@@ -1,0 +1,55 @@
+.condition-analysis {  
+    border-radius: 10px;  
+    padding: 20px;  
+    width: 80%;  
+    margin: 20px auto;  
+    
+  }  
+  
+  .condition-analysis h2 {  
+    font-size: 24px;  
+    text-align: center;  
+    color: #333;  
+  }  
+  
+  .condition-analysis input {  
+    width: calc(100% - 22px); /* 减去内边距和边框 */  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+  }  
+  
+  .condition-analysis button {  
+    padding: 10px 15px;  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+  }  
+  
+  .condition-analysis button:hover {  
+    background-color: #0056b3;  
+  }  
+  
+  .analysis-title {  
+    font-size: 16px; /* 小字体 */  
+    margin: 15px 0 5px; /* 设置上下外边距 */  
+  }  
+  
+  .analysis-results {  
+    margin-top: 10px; /* 调整结果与标题的间距 */  
+  }  
+  
+  .result-card {  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+    padding: 10px;  
+    margin: 10px 0;  
+    background-color: #fff;  
+  }  
+  
+  .result-card strong {  
+    color: #333;  
+  }

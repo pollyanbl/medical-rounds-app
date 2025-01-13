@@ -1,0 +1,53 @@
+.doctor-personal-info {  
+    border-radius: 10px;  
+    padding: 20px;  
+    width: 80%;  
+    margin: 20px auto;   
+  }  
+  
+  .doctor-personal-info h2 {  
+    font-size: 24px;  
+    text-align: center;  
+    color: #333;  
+  }  
+  
+  .doctor-personal-info form {  
+    display: flex;  
+    flex-direction: column;  
+    gap: 15px;  
+  }  
+  
+  .doctor-personal-info label {  
+    font-size: 16px;  
+    color: #555;  
+  }  
+  
+  .doctor-personal-info input,  
+  .doctor-personal-info textarea {  
+    padding: 8px;  
+      
+    border-radius: 5px;  
+  }  
+  
+  .contact-info {  
+    display: flex; /* 使用 Flexbox 布局 */  
+    gap: 20px; /* 输入框之间的间距 */  
+  }  
+  
+  .contact-field {  
+    flex: 1; /* 让输入框平分空间 */  
+  }  
+  
+  .doctor-personal-info button {  
+    padding: 10px 20px;  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px;  
+  }  
+  
+  .doctor-personal-info button:hover {  
+    background-color: #0056b3;  
+  }

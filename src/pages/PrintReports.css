@@ -1,0 +1,51 @@
+.report-container {  
+    max-width: 800px;  /* 设置最大宽度 */  
+    margin: 50px auto;  
+    padding: 30px;  
+    
+    border-radius: 5px;  
+    
+  }  
+  
+  .report-container h2 {  
+    text-align: center;  
+    margin-bottom: 20px;  
+  }  
+  
+  .form-group {  
+    margin-bottom: 15px;  
+  }  
+  
+  .form-group label {  
+    display: block;  
+    margin-bottom: 5px;  
+  }  
+  
+  .form-group input,  
+  .form-group select {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+  }  
+  
+  .print-button {  
+    display: block;  
+    width: 100%;  
+    padding: 15px;  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px; /* 增大字体 */  
+  }  
+  
+  .print-button:hover {  
+    background-color: #0056b3;  
+  }  
+  
+  .print-button:disabled {  
+    background-color: #ccc; /* 禁用状态颜色 */  
+    cursor: not-allowed; /* 禁用状态光标 */  
+  }

@@ -1,0 +1,46 @@
+.personal-info {
+    
+    border-radius: 10px;
+    padding: 20px;
+    
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .personal-info h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .personal-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .personal-info label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .personal-info input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .personal-info button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .personal-info button:hover {
+    background-color: #0056b3;
+  }
+  

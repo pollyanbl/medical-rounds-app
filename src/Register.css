@@ -1,0 +1,128 @@
+/* Register.css */
+
+/* 设置背景图片和页面居中样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./images/移动查房系统注册页面背景图.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* 注册容器样式 */
+  .register-container {
+    background: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* 标题样式 */
+  .register-container h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  /* 表单样式 */
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 输入框样式 */
+  .register-container input,
+  .register-container select,
+  .register-container button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* 按钮样式 */
+  .register-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 验证码按钮样式 */
+  .register-container button[type="button"] {
+    background-color: #28a745;
+  }
+  
+  .register-container button[type="button"]:hover {
+    background-color: #218838;
+  }
+  
+/* 切换按钮容器 */
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* 切换按钮样式 */
+  .toggle-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-buttons button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .toggle-buttons button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+ 
+  .verification-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .verification-container input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .verification-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.verification-container .verification-code {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  

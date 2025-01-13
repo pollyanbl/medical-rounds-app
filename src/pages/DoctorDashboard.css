@@ -1,0 +1,46 @@
+/* 整体布局 */
+.dashboard-container {
+    background-color: #edf4f7;
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  
+  
+  
+  /* 顶部标题和内容区域合并 */
+  .main {
+    display: flex;
+    flex-direction: column; /* 垂直布局 */
+    background-color: #e6f7ff; /* 与整体背景一致 */
+  }
+  
+  /* 标题区域 */
+  .header {
+    width:100vw;
+    height:30px;
+    margin:0px 0px;
+    background-color: #4a90e2; /* 蓝色背景 */
+    color: white;
+    padding: 15px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* 居中显示 */
+  }
+  
+  /* 内容展示区域 */
+  .content {
+    position: absolute;
+    width:1200px;
+    height:500px;
+    margin: 100px 220px;
+    flex-grow: 1; /* 填充剩余空间 */
+    background-color: white; /* 白色背景区域 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

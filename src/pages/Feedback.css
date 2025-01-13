@@ -1,0 +1,70 @@
+/* 设置模块外层容器样式 */
+.feedback-container {
+    margin: 100px auto; /* 自动居中 */
+    padding: 30px;
+    width: 800px; /* 宽度调整 */
+    height:100vh;
+    text-align: center; /* 内容居中 */
+  }
+  
+  /* 标题样式 */
+  .feedback-container h2 {
+    padding:60px 0px 0px 0px;
+    color: #333; /* 深灰色字体 */
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  
+  /* 表单标签样式 */
+  .feedback-container label {
+    display: block;
+    font-size: 16px;
+    height: 5px;
+    font-weight: 500;
+    color: #555; /* 中灰色字体 */
+    margin-bottom: 10px;
+    text-align: left; /* 标签左对齐 */
+  }
+  
+  /* 文本框样式 */
+  .feedback-container textarea {
+    width: 100%; /* 宽度占满容器 */
+    max-width: 700px; /* 最大宽度限制 */
+    height: 25px; /* 高度增加 */
+    margin: 10px auto; /* 上下间距并居中 */
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc; /* 浅灰色边框 */
+    border-radius: 5px; /* 圆角 */
+    resize: none; /* 禁止调整大小 */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* 内部阴影 */
+    transition: border-color 0.3s ease;
+  }
+  
+  /* 文本框聚焦时样式 */
+  .feedback-container textarea:focus {
+    border-color: #007bff; /* 蓝色边框 */
+    outline: none;
+  }
+  
+  /* 提交按钮样式 */
+  .feedback-container button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white; /* 白色字体 */
+    background-color: #007bff; /* 蓝色背景 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* 占满父容器 */
+    max-width: 300px; /* 最大宽度限制 */
+  }
+  
+  /* 提交按钮悬停时样式 */
+  .feedback-container button:hover {
+    background-color: #0056b3; /* 深蓝色 */
+  }
+  

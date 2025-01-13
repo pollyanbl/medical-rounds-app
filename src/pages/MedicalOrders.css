@@ -1,0 +1,53 @@
+.nurse-orders {  
+    border-radius: 10px;  
+    padding: 20px;  
+    width: 80%;  
+    margin: 20px auto;  
+    background-color: #f9f9f9;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+  }  
+  
+  .nurse-orders h2 {  
+    font-size: 24px;  
+    text-align: center;  
+    color: #333;  
+  }  
+  
+  .orders-list {  
+    margin-top: 20px;  
+  }  
+  
+  .order-card {  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+    padding: 15px;  
+    margin: 10px 0;  
+    background-color: #fff;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+  }  
+  
+  .order-card.completed {  
+    background-color: #c8e6c9; /* 完成的任务背景色 */  
+    text-decoration: line-through; /* 完成的标记 */  
+  }  
+  
+  .order-details {  
+    flex-grow: 1; /* 让任务信息部分扩展，按钮右侧 */  
+    margin-right: 15px; /* 添加边距，使其与按钮分开 */  
+  }  
+  
+  .order-card button {  
+    padding: 12px 20px; /* 增加内边距使按钮更大 */  
+    font-size: 16px; /* 增加字体大小 */  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+  }  
+  
+  .order-card button:hover {  
+    background-color: #0056b3;  
+  }

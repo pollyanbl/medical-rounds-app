@@ -1,0 +1,50 @@
+.nurse-profile {  
+    border-radius: 10px;  
+    padding: 20px;  
+    width: 80%;  
+    margin: 20px auto;  
+    background-color: #f9f9f9;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+  }  
+  
+  .nurse-profile h2 {  
+    font-size: 24px;  
+    text-align: center;  
+    color: #333;  
+  }  
+  
+  .nurse-profile input,  
+  .nurse-profile select,  
+  .nurse-profile textarea {  
+    width: calc(50% - 12px); /* 减去内边距和边框 */  
+    padding: 10px;  
+    margin: 10px 5px 10px 0; /* 右边距 */  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+  }  
+  
+  .nurse-profile textarea {  
+    width: 100%; /* 科室占一行 */  
+    margin-top: 10px;  
+    height: 80px; /* 设置高度 */  
+  }  
+  
+  .form-row {  
+    display: flex;  
+    justify-content: space-between;  
+  }  
+  
+  .nurse-profile button {  
+    padding: 10px 15px;  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    margin-top: 10px;  
+    width: 100%; /* 保存按钮占一行 */  
+  }  
+  
+  .nurse-profile button:hover {  
+    background-color: #0056b3;  
+  }

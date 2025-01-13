@@ -1,0 +1,59 @@
+/* 全局背景设置 */
+html,body {
+  background-color: #e8f4fc; /* 浅蓝背景 */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* 注册登录界面样式保持不变 */
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e8f4fc;
+}
+
+/* 通用顶部导航栏 */
+.app-header {
+  background-color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 针对 PatientDashboard 页面 */
+.patient-dashboard {
+  display: flex;
+  height: calc(100vh - 60px); /* 顶部导航栏占 60px */
+}
+
+/* 侧边栏 */
+.patient-sidebar {
+  width: 150px;
+  background-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+/* 内容区域 */
+.patient-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #e8f4fc;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 模块显示的盒子 */
+.module-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,97 @@
+.nurse-rounds {  
+    border-radius: 10px;  
+    padding: 20px;  
+    width: 80%;  
+    margin: 20px auto;  
+    background-color: #f9f9f9;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    position: relative; /* 使内容相对定位 */  
+  }  
+  
+  .nurse-rounds h2 {  
+    font-size: 24px;  
+    text-align: center;  
+    color: #333;  
+  }  
+  
+  .records-list {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    margin-top: 20px;  
+  }  
+  
+  .record-card {  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+    padding: 15px;  
+    margin: 10px;  
+    background-color: #fff;  
+    flex: 0 0 calc(50% - 20px);  
+    box-sizing: border-box;  
+  }  
+  
+  .record-card p {  
+    margin: 5px 0;  
+  }  
+  
+  .new-record-button {  
+    margin-top: 20px;  
+    padding: 10px 15px;  
+    font-size: 16px;  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+  }  
+  
+  .new-record-button:hover {  
+    background-color: #0056b3;  
+  }  
+  
+  .record-form {  
+    position: fixed; /* 固定定位以居中 */  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%); /* 使表单完美居中 */  
+    width: 80%; /* 设置表单宽度 */  
+    max-width: 600px; /* 设置表单最大宽度 */  
+    padding: 20px;  
+    background-color: #fff;  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);  
+    z-index: 1000; /* 确保表单在顶部 */  
+    display: flex;  
+    flex-direction: column; /* 使内容垂直排列 */  
+    justify-content: center; /* 垂直居中内容 */  
+  }  
+  
+  .record-form h3 {  
+    text-align: center;  
+  }  
+  
+  .record-form input {  
+    width: calc(100% - 20px);  
+    padding: 10px;  
+    margin: 5px 0;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+  }  
+  
+  .record-form button {  
+    margin: 10px 20px; /* 添加上下外边距，左右外边距更大以增加间隔 */  
+    padding: 10px 15px;  
+    font-size: 16px;  
+    background-color: #28a745;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    width: 45%; /* 设置宽度，以便两个按钮并排显示 */  
+  }  
+  
+  .record-form button:last-child {  
+    background-color: #dc3545; /* 设置取消按钮的颜色 */  
+  }  

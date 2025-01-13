@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/medical-rounds-app/static/css/main.4f875502.css",
+    "main.js": "/medical-rounds-app/static/js/main.83921602.js",
+    "static/js/488.a795f632.chunk.js": "/medical-rounds-app/static/js/488.a795f632.chunk.js",
+    "static/media/移动查房系统注册页面背景图.jpg": "/medical-rounds-app/static/media/移动查房系统注册页面背景图.f9293f10af47a59ebf42.jpg",
+    "index.html": "/medical-rounds-app/index.html",
+    "main.4f875502.css.map": "/medical-rounds-app/static/css/main.4f875502.css.map",
+    "main.83921602.js.map": "/medical-rounds-app/static/js/main.83921602.js.map",
+    "488.a795f632.chunk.js.map": "/medical-rounds-app/static/js/488.a795f632.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f875502.css",
+    "static/js/main.83921602.js"
+  ]
+}

@@ -1,0 +1,46 @@
+.doctor-ward-round {  
+    border-radius: 10px;  
+    padding: 15px;  
+    width: 90%; /* 调整宽度以适应屏幕 */  
+    margin: 20px auto;  
+    
+  }  
+  
+  .doctor-ward-round h2 {  
+    font-size: 20px; /* 修改标题大小 */  
+    text-align: center;  
+    color: #333;  
+  }  
+  
+  .task-container {  
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr); /* 两列 */  
+    gap: 15px; /* 列之间的间隔 */  
+  }  
+  
+  .task {  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+    padding: 10px; /* 调整内边距 */  
+    background-color: #fff;  
+    font-size: 14px; /* 调整字体大小 */  
+  }  
+  
+  .task.completed {  
+    background-color: #d4edda; /* 完成任务的背景色 */  
+    border-color: #c3e6cb; /* 完成任务的边框颜色 */  
+  }  
+  
+  .task button {  
+    padding: 5px 8px; /* 调整按钮大小 */  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 12px; /* 调整按钮字体大小 */  
+  }  
+  
+  .task button:hover {  
+    background-color: #0056b3;  
+  }
